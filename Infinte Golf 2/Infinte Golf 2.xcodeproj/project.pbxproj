@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFB0D80A2051D8150096EE49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0D8092051D8150096EE49 /* AppDelegate.swift */; };
+		CFB0D8102051D8150096EE49 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0D80F2051D8150096EE49 /* GameScene.swift */; };
+		CFB0D8122051D8150096EE49 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0D8112051D8150096EE49 /* GameViewController.swift */; };
+		CFB0D8152051D8150096EE49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB0D8132051D8150096EE49 /* Main.storyboard */; };
+		CFB0D8172051D8150096EE49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB0D8162051D8150096EE49 /* Assets.xcassets */; };
+		CFB0D81A2051D8150096EE49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB0D8182051D8150096EE49 /* LaunchScreen.storyboard */; };
+		CFB0D8232051D91B0096EE49 /* golf.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB0D8222051D91B0096EE49 /* golf.png */; };
+		CFB0D8252051D94F0096EE49 /* golf128.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB0D8242051D94F0096EE49 /* golf128.png */; };
+		CFB0D8272051D96E0096EE49 /* golf256.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB0D8262051D96E0096EE49 /* golf256.png */; };
+		CFB0D82B2051DBFA0096EE49 /* golf120.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB0D82A2051DBFA0096EE49 /* golf120.png */; };
+		CFB0D82D2051DC2E0096EE49 /* golf180.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB0D82C2051DC2E0096EE49 /* golf180.png */; };
+		CFB0D8312051DDD30096EE49 /* golf32.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB0D8302051DDD30096EE49 /* golf32.png */; };
+		CFB0D8342051DF4D0096EE49 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CFB0D8322051DF4D0096EE49 /* Actions.sks */; };
+		CFB0D8352051DF4D0096EE49 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CFB0D8332051DF4D0096EE49 /* GameScene.sks */; };
+		CFB0D8372051DFE90096EE49 /* golf64.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB0D8362051DFE90096EE49 /* golf64.png */; };
+		CFB0D8392051E0220096EE49 /* golf24.png in Resources */ = {isa = PBXBuildFile; fileRef = CFB0D8382051E0220096EE49 /* golf24.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFB0D8062051D8150096EE49 /* Infinte Golf 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Infinte Golf 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB0D8092051D8150096EE49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFB0D80F2051D8150096EE49 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CFB0D8112051D8150096EE49 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CFB0D8142051D8150096EE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFB0D8162051D8150096EE49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFB0D8192051D8150096EE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFB0D81B2051D8150096EE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB0D8222051D91B0096EE49 /* golf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golf.png; sourceTree = "<group>"; };
+		CFB0D8242051D94F0096EE49 /* golf128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golf128.png; sourceTree = "<group>"; };
+		CFB0D8262051D96E0096EE49 /* golf256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golf256.png; sourceTree = "<group>"; };
+		CFB0D82A2051DBFA0096EE49 /* golf120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golf120.png; sourceTree = "<group>"; };
+		CFB0D82C2051DC2E0096EE49 /* golf180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golf180.png; sourceTree = "<group>"; };
+		CFB0D8302051DDD30096EE49 /* golf32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golf32.png; sourceTree = "<group>"; };
+		CFB0D8322051DF4D0096EE49 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		CFB0D8332051DF4D0096EE49 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CFB0D8362051DFE90096EE49 /* golf64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golf64.png; sourceTree = "<group>"; };
+		CFB0D8382051E0220096EE49 /* golf24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golf24.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFB0D8032051D8150096EE49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFB0D7FD2051D8150096EE49 = {
+			isa = PBXGroup;
+			children = (
+				CFB0D8082051D8150096EE49 /* Infinte Golf 2 */,
+				CFB0D8072051D8150096EE49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB0D8072051D8150096EE49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFB0D8062051D8150096EE49 /* Infinte Golf 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFB0D8082051D8150096EE49 /* Infinte Golf 2 */ = {
+			isa = PBXGroup;
+			children = (
+				CFB0D8212051D9070096EE49 /* Images */,
+				CFB0D8322051DF4D0096EE49 /* Actions.sks */,
+				CFB0D8332051DF4D0096EE49 /* GameScene.sks */,
+				CFB0D8092051D8150096EE49 /* AppDelegate.swift */,
+				CFB0D80F2051D8150096EE49 /* GameScene.swift */,
+				CFB0D8112051D8150096EE49 /* GameViewController.swift */,
+				CFB0D8132051D8150096EE49 /* Main.storyboard */,
+				CFB0D8162051D8150096EE49 /* Assets.xcassets */,
+				CFB0D8182051D8150096EE49 /* LaunchScreen.storyboard */,
+				CFB0D81B2051D8150096EE49 /* Info.plist */,
+			);
+			path = "Infinte Golf 2";
+			sourceTree = "<group>";
+		};
+		CFB0D8212051D9070096EE49 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CFB0D8382051E0220096EE49 /* golf24.png */,
+				CFB0D8362051DFE90096EE49 /* golf64.png */,
+				CFB0D8302051DDD30096EE49 /* golf32.png */,
+				CFB0D82C2051DC2E0096EE49 /* golf180.png */,
+				CFB0D82A2051DBFA0096EE49 /* golf120.png */,
+				CFB0D8242051D94F0096EE49 /* golf128.png */,
+				CFB0D8222051D91B0096EE49 /* golf.png */,
+				CFB0D8262051D96E0096EE49 /* golf256.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFB0D8052051D8150096EE49 /* Infinte Golf 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB0D81E2051D8150096EE49 /* Build configuration list for PBXNativeTarget "Infinte Golf 2" */;
+			buildPhases = (
+				CFB0D8022051D8150096EE49 /* Sources */,
+				CFB0D8032051D8150096EE49 /* Frameworks */,
+				CFB0D8042051D8150096EE49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Infinte Golf 2";
+			productName = "Infinte Golf 2";
+			productReference = CFB0D8062051D8150096EE49 /* Infinte Golf 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFB0D7FE2051D8150096EE49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Carlo Rene Sarnagaya Casalme";
+				TargetAttributes = {
+					CFB0D8052051D8150096EE49 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MXR98J26W5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CFB0D8012051D8150096EE49 /* Build configuration list for PBXProject "Infinte Golf 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFB0D7FD2051D8150096EE49;
+			productRefGroup = CFB0D8072051D8150096EE49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFB0D8052051D8150096EE49 /* Infinte Golf 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFB0D8042051D8150096EE49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB0D8252051D94F0096EE49 /* golf128.png in Resources */,
+				CFB0D82D2051DC2E0096EE49 /* golf180.png in Resources */,
+				CFB0D8152051D8150096EE49 /* Main.storyboard in Resources */,
+				CFB0D8272051D96E0096EE49 /* golf256.png in Resources */,
+				CFB0D8352051DF4D0096EE49 /* GameScene.sks in Resources */,
+				CFB0D8342051DF4D0096EE49 /* Actions.sks in Resources */,
+				CFB0D8172051D8150096EE49 /* Assets.xcassets in Resources */,
+				CFB0D8392051E0220096EE49 /* golf24.png in Resources */,
+				CFB0D81A2051D8150096EE49 /* LaunchScreen.storyboard in Resources */,
+				CFB0D8232051D91B0096EE49 /* golf.png in Resources */,
+				CFB0D8312051DDD30096EE49 /* golf32.png in Resources */,
+				CFB0D82B2051DBFA0096EE49 /* golf120.png in Resources */,
+				CFB0D8372051DFE90096EE49 /* golf64.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFB0D8022051D8150096EE49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB0D8102051D8150096EE49 /* GameScene.swift in Sources */,
+				CFB0D8122051D8150096EE49 /* GameViewController.swift in Sources */,
+				CFB0D80A2051D8150096EE49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFB0D8132051D8150096EE49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB0D8142051D8150096EE49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFB0D8182051D8150096EE49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB0D8192051D8150096EE49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFB0D81C2051D8150096EE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFB0D81D2051D8150096EE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFB0D81F2051D8150096EE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MXR98J26W5;
+				INFOPLIST_FILE = "Infinte Golf 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cscasalme.Infinte-Golf-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CFB0D8202051D8150096EE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MXR98J26W5;
+				INFOPLIST_FILE = "Infinte Golf 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cscasalme.Infinte-Golf-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFB0D8012051D8150096EE49 /* Build configuration list for PBXProject "Infinte Golf 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB0D81C2051D8150096EE49 /* Debug */,
+				CFB0D81D2051D8150096EE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB0D81E2051D8150096EE49 /* Build configuration list for PBXNativeTarget "Infinte Golf 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB0D81F2051D8150096EE49 /* Debug */,
+				CFB0D8202051D8150096EE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFB0D7FE2051D8150096EE49 /* Project object */;
+}
